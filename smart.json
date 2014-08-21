@@ -3,9 +3,9 @@
   "description": "Login service for uber",
   "homepage": "https://github.com/picsoung/meteor-accounts-uber",
   "author": "Nicolas Grenié <nicolas@3scale.net>",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "git": "https://github.com/picsoung/meteor-accounts-uber.git",
   "packages": {
-    "uber-oauth": "0.0.1"
+    "uber-oauth": "0.0.5"
   }
 }
