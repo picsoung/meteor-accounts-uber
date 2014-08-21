@@ -9,7 +9,7 @@ if (Meteor.isClient) {
         }
 
         var credentialRequestCompleteCallback = Accounts.oauth.credentialRequestCompleteHandler(callback);
-        RedditOauth.requestCredential(options, credentialRequestCompleteCallback);
+        UberOauth.requestCredential(options, credentialRequestCompleteCallback);
     };
 } else {
     Accounts.addAutopublishFields({
