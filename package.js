@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Accounts service for reddit"
+  summary: "Accounts service for uber"
 });
 
 Package.on_use(function (api) {
@@ -7,10 +7,10 @@ Package.on_use(function (api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('reddit-oauth', ['client', 'server']);
+  api.use('uber-oauth', ['client', 'server']);
 
-  api.add_files(['reddit_login_button.css'], 'client');
+  api.add_files(['uber_login_button.css'], 'client');
 
-  api.add_files('reddit.js', ['client', 'server']);
+  api.add_files('uber.js', ['client', 'server']);
 });
 

@@ -1,7 +1,7 @@
-Accounts.oauth.registerService('reddit');
+Accounts.oauth.registerService('uber');
 
 if (Meteor.isClient) {
-    Meteor.loginWithReddit = function(options, callback) {
+    Meteor.loginWithUber = function(options, callback) {
         // support a callback without options
         if (!callback && typeof options === "function") {
             callback = options;
@@ -13,7 +13,7 @@ if (Meteor.isClient) {
     };
 } else {
     Accounts.addAutopublishFields({
-      forLoggedInUser: ['services.reddit'],
-      forOtherUsers: ['services.reddit.id']
+      forLoggedInUser: ['services.uber'],
+      forOtherUsers: ['services.uber.id']
     });
 }

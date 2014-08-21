@@ -1,11 +1,11 @@
 {
-  "name": "accounts-reddit",
-  "description": "Login service for reddit",
-  "homepage": "https://github.com/cw4gn3r/meteor-accounts-reddit",
-  "author": "Christoph Wagner <github@christophwagner.me>",
-  "version": "0.0.7",
-  "git": "https://github.com/cw4gn3r/meteor-accounts-reddit.git",
+  "name": "accounts-uber",
+  "description": "Login service for uber",
+  "homepage": "https://github.com/picsoung/meteor-accounts-uber",
+  "author": "Nicolas Grenié <nicolas@3scale.net>",
+  "version": "0.0.1",
+  "git": "https://github.com/picsoung/meteor-accounts-uber.git",
   "packages": {
-    "reddit-oauth": "0.0.6"
+    "uber-oauth": "0.0.1"
   }
 }
