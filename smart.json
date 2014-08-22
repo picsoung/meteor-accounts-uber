@@ -8,7 +8,7 @@
   "packages": {
     "uber-oauth": {
     	"git":"https://github.com/picsoung/meteor-uber-oauth.git",
-    	"branch":"master"
+    	"tag":"0.0.6"
     }
   }
 }
