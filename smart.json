@@ -6,6 +6,9 @@
   "version": "0.0.9",
   "git": "https://github.com/picsoung/meteor-accounts-uber.git",
   "packages": {
-    "uber-oauth": "0.0.5"
+    "uber-oauth": {
+    	"git":"https://github.com/picsoung/meteor-uber-oauth.git",
+    	"branch":"master"
+    }
   }
 }
