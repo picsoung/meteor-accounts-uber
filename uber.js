@@ -14,6 +14,6 @@ if (Meteor.isClient) {
 } else {
   Accounts.addAutopublishFields({
     forLoggedInUser: ['services.uber'],
-    forOtherUsers: ['']
+    forOtherUsers: ['services.uber.id']
   });
 }
