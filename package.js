@@ -19,9 +19,3 @@ Package.onUse(function(api) {
 
   api.add_files("uber.js");
 });
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('picsoung:uber');
-  api.addFiles('accounts-uber-tests.js');
-});
